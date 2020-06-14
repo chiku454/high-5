@@ -1,0 +1,48 @@
+[debug] [2020-01-31T04:45:33.046Z] ----------------------------------------------------------------------
+[debug] [2020-01-31T04:45:33.048Z] Command:       /Users/manish.chouhan/.nvm/versions/node/v11.12.0/bin/node /Users/manish.chouhan/.nvm/versions/node/v11.12.0/bin/firebase init
+[debug] [2020-01-31T04:45:33.048Z] CLI Version:   7.12.1
+[debug] [2020-01-31T04:45:33.048Z] Platform:      darwin
+[debug] [2020-01-31T04:45:33.048Z] Node Version:  v11.12.0
+[debug] [2020-01-31T04:45:33.049Z] Time:          Fri Jan 31 2020 10:15:33 GMT+0530 (India Standard Time)
+[debug] [2020-01-31T04:45:33.049Z] ----------------------------------------------------------------------
+[debug] [2020-01-31T04:45:33.050Z] 
+[debug] [2020-01-31T04:45:33.057Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-01-31T04:45:33.057Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/manish.chouhan/Desktop/Finnathon High 5/high-5
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-01-31T04:46:29.101Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-31T04:46:29.102Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-31T04:46:29.356Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-31T04:46:29.382Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-01-31T04:46:31.120Z] <<< HTTP RESPONSE 200
+[info] i  Using project happay-score (Happay score)
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[debug] [2020-01-31T05:42:56.056Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-01-31T05:42:56.057Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-01-31T05:42:56.305Z] <<< HTTP RESPONSE 200
+[debug] [2020-01-31T05:42:56.371Z] >>> HTTP REQUEST GET https://happay-score.firebaseio.com/.settings/rules.json  
+ 

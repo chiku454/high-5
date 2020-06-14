@@ -1,0 +1,131 @@
+.barParent {
+    width: 100%;
+}
+
+.barInfoDiv {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0px 10px 10px;
+}
+
+.variableLeftSide {
+    width: 59px;
+    font-style: Regular;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #297cbf;
+}
+
+.fixLeftSide {
+    /* width: 109px; */
+    padding-left: 6px;
+    font-style: Regular;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.variablePerContent {
+    /* width: 38px; */
+    font-style: Regular;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #297cbf;
+}
+
+.fixPerContent {
+    width: 102px;
+    font-style: Regular;
+    font-size: 1em;
+    font-family: sans-serif;
+}
+
+.completionBar {
+    height: 18px;
+    width: 80%;
+    border-radius: 11px;
+    padding: 3px;
+    border: 2px solid #b3b8c2;
+    /* background: #62d3a2; */
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    opacity: 1;
+}
+
+.fillerBar {
+    background: #419364 0% 0%;
+    height: 100%;
+    border-radius: 11px;
+    opacity: 1;
+}
+.nonFillerBar {
+    background: #62d3a2 0% 0% !important;
+    position: relative;
+    bottom: 8px;
+    border-radius: 0px 11px 11px 0px !important;
+}
+.lable-color {
+    color: #54688c !important;
+}
+.complitionLeftBar {
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+.fillerBarReports {
+    width: 100%;
+    display: flex;
+    height: -webkit-fill-available;
+}
+.approvedAmount {
+    background: #5e88c6;
+    border-radius: 10px 0px 0px 10px;
+}
+.pendingAmount {
+    background: #afd0ff;
+}
+.avilableAmount {
+    background: #61d1a1;
+    border-radius: 0px 10px 10px 0px;
+}
+.leftInfoDiv .variablePerContent {
+    color: #5e88c6;
+}
+.middleInfoDiv .variablePerContent {
+    color: #afd0ff;
+}
+.rightInfoDiv .variablePerContent {
+    color: #61d1a1;
+}
+.isFromDialogViewBar {
+    height: 26px;
+    width: 92%;
+    padding: 3px;
+    background-repeat: no-repeat;
+    background-origin: padding-box;
+    opacity: 1;
+}
+.fillerBarFromCreateBudget {
+    background: #1d7cbf 0% 0%;
+    height: 100%;
+    border-radius: 11px;
+    opacity: 1;
+}
+.nonFillerBarFromCreateBudget {
+    /* background: #d4abce 0% 0% !important; */
+    position: relative;
+    /* bottom: 8px; */
+    /* border-radius: 0px 11px 11px 0px !important; */
+}
+.viewPAllcation {
+    display: flex;
+    justify-content: flex-end;
+    padding: 13px;
+    color: #3263b7;
+    cursor: pointer;
+}
+
+.isFromDialogViewBorder {
+}

@@ -1,0 +1,71 @@
+.btn{
+    width: 100%;
+    background: green !important;
+    color: white !important;
+    /* padding: 0 !important; */
+} 
+.cardWrapper{
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+}
+.orgBtnWrap{
+    margin: 16px auto;
+    width: 73%;
+    /* width: 700px; */
+    height: 142px;
+    /* opacity: 0.05; */
+    border: 1px solid #c4c4c4;
+    border-radius: 4px;
+    mix-blend-mode: multiply;
+}
+.withPadding{
+    padding: 10px;
+}
+.tileWraper{
+    display: -webkit-inline-box;
+    flex-wrap: wrap;
+    padding: 24px;
+    height: 55vh;
+    overflow: scroll;
+    width: 100%
+}
+.textField{
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+}
+.css-yk16xz-control{
+    height: 3.3rem;
+}
+.headerContainer{
+    border-bottom: 1px solid #EBEBEB;
+    background-color: #FFFFFF;
+    padding: 30px 30px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 100;
+}
+.orgDetailFooter{
+    text-align: center;
+    line-height: 3;
+    color: #4f566b;
+}
+.makeStyles-root-285{
+    margin: 18px
+}
+.thankYou{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #4f566a;
+}
+.searchOrg{
+    padding: 18px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.87);
+}
